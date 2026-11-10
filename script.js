@@ -8,6 +8,11 @@ function handleSubmit(event) {
   event.preventDefault();
   let menu = JSON.parse(input.value);
   count.textContent = "We have " + menu.length + " items today.";
+  menuText.textContent = "";
+  for (let i = 0; i < menu.length; i++) {
+    menuText.textContent +=
+      menu[i].name + " - $" + menu[i].price.toFixed(2) + "\n";
+  }
 }
 
 form.addEventListener("submit", handleSubmit);
