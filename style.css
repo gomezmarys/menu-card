@@ -1,0 +1,36 @@
+/* Menu Card styling(Day 3) */
+body {
+  background-color: #fdf6e3;
+  font-family: Arial, sans-serif;
+  max-width: 40rem;
+  margin: 40px auto;
+}
+h1 {
+  color: #0b6e4f;
+  text-align: center;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+textarea {
+  width: 100%;
+}
+
+button {
+  background-color: #0b6e4f;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+/* Chalkboard looking menu , preline so each line is a new line with /n */
+
+#menu-text {
+  white-space: pre-line;
+  background-color: #2c3e50;
+  color: #fdf6e3;
+  padding: 16px;
+  border-radius: 12px;
+}
